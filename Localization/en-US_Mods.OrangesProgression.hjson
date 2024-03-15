@@ -1,0 +1,146 @@
+# This file will automatically update with entries for new content after a build and reload
+
+Items: {
+	StemSword: {
+		DisplayName: StemSword
+		Tooltip: ""
+	}
+
+	ShroomStaff: {
+		DisplayName: ShroomStaff
+		Tooltip: ""
+	}
+
+	MushroomGreaves: {
+		DisplayName: Mushroom Greaves
+		Tooltip: ""
+	}
+
+	SporeBow: {
+		DisplayName: Spore Bow
+		Tooltip: ""
+	}
+
+	MushroomCap: {
+		DisplayName: Mushroom Cap
+		Tooltip: ""
+	}
+
+	MushroomPlate: {
+		DisplayName: Mushroom Plate
+		Tooltip: ""
+	}
+
+	MushroomWhip: {
+		DisplayName: Mushroom Whip
+		Tooltip: ""
+	}
+
+	TundraCharm: {
+		DisplayName: Tundra Charm
+		Tooltip:
+			'''
+			Gives immunity to chilled debuff
+			Increases magic and summoner damage by 10% when in Tundra biome.
+			'''
+	}
+
+	SharkronLauncher: {
+		DisplayName: Sharkron Launcher
+		Tooltip:
+			'''
+			33% Chance to save ammo
+			Converts musket balls into Sharkron projectiles
+			'''
+	}
+
+	SoulOfSpite: {
+		DisplayName: Soul of Spite
+		Tooltip: The soul of the Graveyard creatures
+	}
+
+	ShinyBlade: {
+		DisplayName: Shiny Blade
+		Tooltip: ""
+	}
+
+	HaystackKneedler: {
+		DisplayName: Haystack Kneedler
+		Tooltip: ""
+	}
+
+	HaystackNeedler: {
+		DisplayName: Haystack Needler
+		Tooltip:
+			'''
+			Fires a strong, uneven spread of bullets.
+			Converts musket balls into hay needles
+			'''
+	}
+
+	FungulTorrent: {
+		Tooltip: Rains bouncing fungus from the sky
+		DisplayName: Fungul Torrent
+	}
+
+	EctoBlaster: {
+		DisplayName: Ecto Blaster
+		Tooltip:
+			'''
+			Fires a spiteful piercing soul of the undead
+			Does more damage to enemies than bossed
+			Doesn't use ammo
+			'''
+	}
+
+	PalmsTombOfBananas: {
+		DisplayName: Palm's Tomb Of Bananas
+		Tooltip:
+			'''
+			Hurls a wave of banana stuff. Make of that what you will.
+			"It doesn't look like bananas, but it's yellow, so that's that."
+			'''
+	}
+
+	PalmsTomeOfBananas: {
+		DisplayName: Palms Tome Of Bananas
+		Tooltip: ""
+	}
+
+	EntropyEmitter: {
+		DisplayName: Entropy Emitter
+		Tooltip: ""
+	}
+
+	HayGreaves: {
+		DisplayName: Hay Greaves
+		Tooltip: ""
+	}
+
+	HayPlate: {
+		DisplayName: Hay Plate
+		Tooltip: ""
+	}
+
+	StrawHat: {
+		DisplayName: Straw Hat
+		Tooltip: ""
+	}
+
+	FungalTorrent: {
+		DisplayName: Fungal Torrent
+		Tooltip: ""
+	}
+}
+
+Projectiles: {
+	MushroomWhipProjectile.DisplayName: Mushroom Whip Projectile
+	SpinMushroomProjectile.DisplayName: Spinning Mushroom Projectile
+	HaystackNeedlerProjectile.DisplayName: Haystack Needler Projectile
+	EctoBlasterProjectile.DisplayName: Ecto Blaster Projectile
+	SporeRainProjectile.DisplayName: Spore Rain Projectile
+	PalmsTomeOfBananasProjectile.DisplayName: Palm's Tome Of Bananas Projectile
+	FungulTorrentProjectile.DisplayName: Fungul Torrent Projectile
+}
+
+NPCs.MushroomSlime.DisplayName: Mushroom Slime
