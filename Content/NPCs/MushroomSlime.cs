@@ -5,7 +5,7 @@ using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.ModLoader.Utilities;
 
-namespace OrangesProgression.Content.NPC
+namespace OrangesProgression.Content.NPCs
 {
     // This ModNPC serves as an example of a completely custom AI.
     public class MushroomSlime : ModNPC

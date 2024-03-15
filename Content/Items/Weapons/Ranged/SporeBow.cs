@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OrangesProgression.Content.Items.Weapons
+namespace OrangesProgression.Content.Items.Weapons.Ranged
 {
     public class SporeBow : ModItem
     {
@@ -16,7 +16,7 @@ namespace OrangesProgression.Content.Items.Weapons
             Item.useStyle = 5;
             Item.knockBack = 3;
             Item.value = 146;
-            Item.rare = ItemRarityID.Orange;
+            Item.rare = ItemRarityID.White;
             Item.UseSound = SoundID.Item5;
             Item.autoReuse = true;
             Item.shoot = 1;

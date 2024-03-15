@@ -22,7 +22,7 @@ namespace OrangesProgression.Content.Projectiles.ExperimentalMeleeProjectiles
             base.Projectile.penetrate = 4;
             base.Projectile.tileCollide = true;
             base.Projectile.alpha = 150;
-            base.Projectile.aiStyle = 0  ;
+            base.Projectile.aiStyle = ProjAIStyleID.Beam;
             base.Projectile.DamageType = DamageClass.Melee;
             base.Projectile.timeLeft = 150;
         }
@@ -30,10 +30,14 @@ namespace OrangesProgression.Content.Projectiles.ExperimentalMeleeProjectiles
         public override void AI()
         {
             Player player = Main.player[base.Projectile.owner];
-            if (base.Projectile.timeLeft == 150)
+
+            
+            if (base.Projectile.timeLeft >= base.Projectile.timeLeft - 10)
             {
                 base.Projectile.rotation = (Main.MouseWorld - player.Center).ToRotation() + MathHelper.ToRadians(90);
             }
+            
+
             int rand = Main.rand.Next(2);
             if (rand == 0)
             {
@@ -47,7 +51,8 @@ namespace OrangesProgression.Content.Projectiles.ExperimentalMeleeProjectiles
             Lighting.AddLight(base.Projectile.Center, 1);
         }
 
-        public override void Kill(int timeLeft)
+
+        public override void OnKill(int timeLeft)
         {
             for (int i = 0; i < 10; i++)
             {

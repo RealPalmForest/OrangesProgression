@@ -6,7 +6,7 @@ using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OrangesProgression.Content.NPC
+namespace OrangesProgression.Content.NPCs
 {
 	public class NPCDrops : GlobalNPC
 	{

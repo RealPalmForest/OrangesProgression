@@ -8,7 +8,7 @@ using Terraria.Enums;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OrangesProgression.Content.Items.Weapons
+namespace OrangesProgression.Content.Items.PalmsSpecials
 {
     public class FungalTorrent : ModItem
     {

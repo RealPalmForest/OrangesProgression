@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OrangesProgression.Content.Items.Weapons
+namespace OrangesProgression.Content.Items.Weapons.Summoner
 {
 	public class MushroomWhip : ModItem
 	{
@@ -17,7 +17,7 @@ namespace OrangesProgression.Content.Items.Weapons
             // This method quickly sets the whip's properties.
             // Mouse over to see its parameters.
             Item.DefaultToWhip(ModContent.ProjectileType<MushroomWhipProjectile>(), 20, 2, 4);
-            Item.rare = ItemRarityID.Orange;
+            Item.rare = ItemRarityID.White;
             Item.channel = true;
             Item.damage = 17;
         }

@@ -56,7 +56,7 @@ Items: {
 
 	SoulOfSpite: {
 		DisplayName: Soul of Spite
-		Tooltip: The soul of the Graveyard creatures
+		Tooltip: The souls of fallen Graveyard creatures
 	}
 
 	ShinyBlade: {
@@ -64,16 +64,11 @@ Items: {
 		Tooltip: ""
 	}
 
-	HaystackKneedler: {
-		DisplayName: Haystack Kneedler
-		Tooltip: ""
-	}
-
 	HaystackNeedler: {
 		DisplayName: Haystack Needler
 		Tooltip:
 			'''
-			Fires a strong, uneven spread of bullets.
+			Fires a sharp, uneven spread of bullets.
 			Converts musket balls into hay needles
 			'''
 	}
@@ -88,13 +83,13 @@ Items: {
 		Tooltip:
 			'''
 			Fires a spiteful piercing soul of the undead
-			Does more damage to enemies than bossed
+			Does more damage to enemies than bosses
 			Doesn't use ammo
 			'''
 	}
 
-	PalmsTombOfBananas: {
-		DisplayName: Palm's Tomb Of Bananas
+	PalmsTomeOfBananas: {
+		DisplayName: Palm's Tome Of Bananas
 		Tooltip:
 			'''
 			Hurls a wave of banana stuff. Make of that what you will.
@@ -102,14 +97,9 @@ Items: {
 			'''
 	}
 
-	PalmsTomeOfBananas: {
-		DisplayName: Palms Tome Of Bananas
-		Tooltip: ""
-	}
-
 	EntropyEmitter: {
 		DisplayName: Entropy Emitter
-		Tooltip: ""
+		Tooltip: Chaos! Chaos!
 	}
 
 	HayGreaves: {
@@ -131,6 +121,26 @@ Items: {
 		DisplayName: Fungal Torrent
 		Tooltip: ""
 	}
+
+	DirtSword: {
+		DisplayName: Dirt Sword
+		Tooltip: ""
+	}
+
+	GlowingKnife: {
+		DisplayName: Glowing Knife
+		Tooltip: ""
+	}
+
+	ReplenishedKnife: {
+		DisplayName: Replenished Knife
+		Tooltip: ""
+	}
+
+	RustedKnife: {
+		DisplayName: Rusted Knife
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -141,6 +151,8 @@ Projectiles: {
 	SporeRainProjectile.DisplayName: Spore Rain Projectile
 	PalmsTomeOfBananasProjectile.DisplayName: Palm's Tome Of Bananas Projectile
 	FungulTorrentProjectile.DisplayName: Fungul Torrent Projectile
+	GlowingKnifeBeam.DisplayName: Glowing Knife Beam
+	SpikyBallMushroomProjectile.DisplayName: Spiky Ball Mushroom Projectile
 }
 
 NPCs.MushroomSlime.DisplayName: Mushroom Slime

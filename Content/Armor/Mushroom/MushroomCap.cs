@@ -10,10 +10,10 @@ namespace OrangesProgression.Content.Armor.Mushroom
 	{
 		public override void SetDefaults()
 		{
-			Item.defense = 2;
-			Item.value = 56;
-			Item.rare = ItemRarityID.Orange;
-		}
+			Item.defense = 1;
+			Item.value = 50;
+			Item.rare = ItemRarityID.White;
+        }
 
 		public override void AddRecipes()
 		{

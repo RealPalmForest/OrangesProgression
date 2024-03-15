@@ -5,7 +5,7 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OrangesProgression.Content.Items.Weapons
+namespace OrangesProgression.Content.Items.Weapons.Melee
 {
 	public class StemSword : ModItem
 	{

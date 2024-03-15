@@ -6,7 +6,7 @@ using Terraria.GameContent;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace OrangesProgression.Content.Items.Weapons
+namespace OrangesProgression.Content.Items.Weapons.Ranged
 {
     public class SharkronLauncher : ModItem
     {

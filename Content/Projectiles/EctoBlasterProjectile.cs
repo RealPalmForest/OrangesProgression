@@ -13,7 +13,7 @@ namespace OrangesProgression.Content.Projectiles
         public override void SetDefaults()
         {
             Projectile.aiStyle = ProjAIStyleID.LunarProjectile;
-            Projectile.ignoreWater = true;
+            Projectile.ignoreWater = false;
             Projectile.tileCollide = false;
             Projectile.friendly = true;
             Projectile.timeLeft = 340;
@@ -24,7 +24,6 @@ namespace OrangesProgression.Content.Projectiles
         public override void PostAI()
         {
             Lighting.AddLight(Projectile.position, Color.WhiteSmoke.ToVector3() * Main.essScale);
-
 
             int dust = Dust.NewDust(Projectile.position, 1, 2, DustID.SilverFlame, 0f, 0f, 0, default(Color), 1f);
             int moreDust = Dust.NewDust(Projectile.position, 1, 2, DustID.SilverFlame, 0f, 0f, 0, default(Color), 1f);

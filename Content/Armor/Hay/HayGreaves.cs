@@ -15,8 +15,8 @@ namespace OrangesProgression.Content.Armor.Hay
         public override void SetDefaults()
         {
             Item.defense = 1;
-            Item.value = 79;
-            Item.rare = ItemRarityID.Orange;
+            Item.value = 60;
+            Item.rare = ItemRarityID.White;
         }
 
         public override void AddRecipes()
