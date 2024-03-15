@@ -3,7 +3,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Content.OrangesProgression.Armor.Mushroom
+namespace OrangesProgression.Content.Armor.Mushroom
 {
 	[AutoloadEquip(EquipType.Head)]
 	public class MushroomCap : ModItem

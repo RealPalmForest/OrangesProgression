@@ -7,7 +7,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Content.OrangesProgression.Armor.Hay
+namespace OrangesProgression.Content.Armor.Hay
 {
     [AutoloadEquip(EquipType.Legs)]
     public class HayGreaves : ModItem
@@ -22,7 +22,7 @@ namespace Content.OrangesProgression.Armor.Hay
         public override void AddRecipes()
         {
             Recipe recipe = CreateRecipe();
-            recipe.AddIngredient(ItemID.Mushroom, 15);
+            recipe.AddIngredient(ItemID.Hay, 150);
             recipe.AddTile(TileID.WorkBenches);
             recipe.Register();
         }

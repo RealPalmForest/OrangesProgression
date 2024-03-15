@@ -7,7 +7,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Content.OrangesProgression.Armor.Mushroom
+namespace OrangesProgression.Content.Armor.Mushroom
 {
     [AutoloadEquip(EquipType.Body)]
     public class MushroomPlate : ModItem
