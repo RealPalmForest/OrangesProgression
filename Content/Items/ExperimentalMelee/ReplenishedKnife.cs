@@ -25,7 +25,6 @@ namespace OrangesProgression.Content.Items.ExperimentalMelee
         {
             Recipe recipe = CreateRecipe();
             recipe.AddIngredient(ModContent.ItemType<RustedKnife>(), 1);
-            recipe.AddIngredient(ItemID.ArmorPolish, 1);
             recipe.AddIngredient(ItemID.SilverBar, 10);
             recipe.AddTile(TileID.Anvils);
             recipe.Register();
