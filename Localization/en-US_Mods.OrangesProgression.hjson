@@ -141,6 +141,16 @@ Items: {
 		DisplayName: Rusted Knife
 		Tooltip: ""
 	}
+
+	ButterKnife: {
+		DisplayName: Butter Knife
+		Tooltip: ""
+	}
+
+	HeartstringBow: {
+		Tooltip: Converts Wooden arrows to Cupid arrows
+		DisplayName: Heartstring
+	}
 }
 
 Projectiles: {
@@ -153,6 +163,8 @@ Projectiles: {
 	FungulTorrentProjectile.DisplayName: Fungul Torrent Projectile
 	GlowingKnifeBeam.DisplayName: Glowing Knife Beam
 	SpikyBallMushroomProjectile.DisplayName: Spiky Ball Mushroom Projectile
+	ButterKnifeProj.DisplayName: Butter Knife Proj
+	CupidArrow.DisplayName: Cupid Arrow
 }
 
 NPCs.MushroomSlime.DisplayName: Mushroom Slime

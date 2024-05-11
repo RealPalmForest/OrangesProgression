@@ -32,7 +32,7 @@ namespace OrangesProgression.Content.Items.Weapons.Ranged
 
 			// Weapon Properties
 			Item.DamageType = DamageClass.Ranged; // Sets the damage type to ranged.
-			Item.damage = 12; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
+			Item.damage = 9; // Sets the item's damage. Note that projectiles shot by this weapon will use its and the used ammunition's damage added together.
 			Item.knockBack = 3f; // Sets the item's knockback. Note that projectiles shot by this weapon will use its and the used ammunition's knockback added together.
 			Item.noMelee = true; // So the item's animation doesn't do damage.
 
@@ -49,14 +49,14 @@ namespace OrangesProgression.Content.Items.Weapons.Ranged
 				.AddIngredient(ItemID.Hay, 135)
 				.AddIngredient(ItemID.IronBar, 6)
 				.AddTile(TileID.WorkBenches)
-				.AddCondition(Condition.InGraveyard)
+				//.AddCondition(Condition.InGraveyard)
 				.Register();
 
             CreateRecipe()
                 .AddIngredient(ItemID.Hay, 135)
                 .AddIngredient(ItemID.LeadBar, 6)
                 .AddTile(TileID.WorkBenches)
-                .AddCondition(Condition.InGraveyard)
+                //.AddCondition(Condition.InGraveyard)
                 .Register();
         }
 
