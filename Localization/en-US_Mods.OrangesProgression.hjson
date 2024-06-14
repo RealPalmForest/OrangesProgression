@@ -151,6 +151,11 @@ Items: {
 		Tooltip: Converts Wooden arrows to Cupid arrows
 		DisplayName: Heartstring
 	}
+
+	ShootingStarYoyo: {
+		DisplayName: Shooting Star
+		Tooltip: ""
+	}
 }
 
 Projectiles: {
@@ -165,6 +170,7 @@ Projectiles: {
 	SpikyBallMushroomProjectile.DisplayName: Spiky Ball Mushroom Projectile
 	ButterKnifeProj.DisplayName: Butter Knife Proj
 	CupidArrow.DisplayName: Cupid Arrow
+	ShootingStarYoyoProjectile.DisplayName: Shooting Star Yoyo Projectile
 }
 
 NPCs.MushroomSlime.DisplayName: Mushroom Slime
